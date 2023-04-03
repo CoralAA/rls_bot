@@ -1,3 +1,4 @@
+# This Python file uses the following encoding: utf-8
 from telebot import TeleBot
 from web_parser import get_rls_list,get_document_by_url
 
