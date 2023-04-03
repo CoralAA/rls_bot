@@ -7,7 +7,7 @@ rls_pages = get_rls_list()
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.from_user.id, "Добро пожаловать в базу знаний РЛС!", reply_markup=markup)
+    bot.send_message(message.from_user.id, "Добро пожаловать в базу знаний РЛС!")
 
 @bot.message_handler(content_types=['text'])
 def message_reply(message):
